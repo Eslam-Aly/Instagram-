@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+.logo {
+  width: 140px;
+  height: 50px;
+  padding: 10px;
+}
+
+.post {
+  margin-bottom: 30px;
+  border-top: 1px solid black;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+}
+
+.post-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 10px 0;
+}
+
+.post-header-p {
+  padding-top: 20px;
+}
+
+.post-img img {
+  width: 396px;
+}
+
+.post-action img {
+  height: 30px;
+  width: 30px;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+.post-action img:hover {
+  box-shadow: 2px 2px #888888;
+}
+
+.post-comment {
+  padding-left: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 18px;
+}
